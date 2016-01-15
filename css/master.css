@@ -17,10 +17,12 @@ li {
 }
 
 .logo{
-  width:272; height:92;
+  height:92;
   margin: 0 auto;
   margin-bottom: 31px;
 }
+
+#logoimg {display:block; margin: auto;}
 
 .searchform {
   width: 482px;
