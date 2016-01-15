@@ -1,3 +1,7 @@
+body {
+  font-family: arial, sans-serif;
+}
+
 .main{
   margin: 0 auto;
   margin-top: 198px;
@@ -13,12 +17,45 @@
   width: 482px;
   margin: 0 auto;
 }
-input {
+.text {
   width: 470px; height: 32px;
   border: 0.5px solid #C9C9C9;
   padding:3px 5px;
 }
 
+.buttonwrapper {
+  width: 400px;
+  margin: 33px auto;
+  text-align: center;
+}
+
+.button {
+  height:36px;
+  border: none;
+  font-size: 11.5px;
+  font-weight:bold;
+  color: #757575;
+  background-color: #F1F1F1;
+  border-radius: 2px;
+  margin: 0 2px;
+}
+
+#search {
+  width:132px;
+}
+
+#lucky {
+  width:146px;
+}
+
+.button:hover {
+  border: 1px solid #C9C9C9;;
+  color: black;
+}
+
+.button:focus {
+  border-color: #4D90FE;
+}
 
 input:hover{
   border-color: #A0A0A0;
