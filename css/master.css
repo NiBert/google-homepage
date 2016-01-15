@@ -1,0 +1,29 @@
+.main{
+  margin: 0 auto;
+  margin-top: 198px;
+  width: 600px;
+}
+
+.logo{
+  width:272; height:92;
+  margin: 0 auto;
+  margin-bottom: 31px;
+}
+.searchform {
+  width: 482px;
+  margin: 0 auto;
+}
+input {
+  width: 470px; height: 32px;
+  border: 0.5px solid #C9C9C9;
+  padding:3px 5px;
+}
+
+
+input:hover{
+  border-color: #A0A0A0;
+}
+
+input:focus {
+  border-color: #4D90FE;
+}
