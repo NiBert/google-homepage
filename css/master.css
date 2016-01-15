@@ -1,8 +1,15 @@
-body {
-  font-family: arial, sans-serif;
+/* Global selectors: */
+body {font-family: arial, sans-serif;}
+ul {list-style-type: none; margin:13px 0 0 0;}
+a {color:#666; text-decoration: none;}
+
+li {
+  display:inline-block;
+  font-size: small;
+  padding-bottom: 0;
 }
 
-
+/* For the main part: */
 .main{
   margin: 0 auto;
   margin-top: 152px;
@@ -14,10 +21,12 @@ body {
   margin: 0 auto;
   margin-bottom: 31px;
 }
+
 .searchform {
   width: 482px;
   margin: 0 auto;
 }
+
 .text {
   width: 470px; height: 32px;
   border: 0.5px solid #C9C9C9;
@@ -41,46 +50,14 @@ body {
   margin: 0 2px;
 }
 
-#search {
-  width:132px;
-}
+#search {width:132px;}
+#lucky {width:146px;}
 
-#lucky {
-  width:146px;
-}
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: #F2F2F2;
-  width: 100%;
-  height: 42px;
-}
-.leftlinks {
-  float:left;
-}
-
-.rightlinks {
-  float: right;
-  margin-right: 28px;
-}
-
-.header {
-  text-align: right;
-}
-.header ul li a{
-  color: black;
-}
-
-.header ul li {
-  vertical-align:middle;
-  margin: auto 0 auto 11px;
-}
-.header ul {
-  margin-top: 16px;
-  margin-right: 22px;
-}
+/* For the header: */
+.header {text-align: right;}
+.header ul {margin-top: 16px; margin-right: 22px;}
+.header ul li {vertical-align:middle; margin: 0 0 0 11px;}
 
 .imgwrapper {
   background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
@@ -98,47 +75,28 @@ body {
   font-weight: bold;
 }
 
-ul {
-  list-style-type: none;
-  padding:0;
-  margin:13px 0 0 0;
+/* For the footer: */
+.footer {
+  position: absolute;
+  bottom: 0; left: 0;
+  background-color: #F2F2F2;
+  width: 100%; height: 42px;
 }
 
+.footer ul li {padding-left: 28px;}
+.leftlinks {float:left;}
 
-.footer ul li {
-    padding-left: 28px;
-}
-li {
-  display:inline-block;
-  font-size: small;
-  padding-bottom: 0;
-
-}
-li a {
-  color:#666;
-  text-decoration: none;
+.rightlinks {
+  float: right;
+  margin-right: 28px;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-#signin:hover {
-    text-decoration: none;
-}
+/* Pseudo selectors: */
+input:hover {border-color: #A0A0A0;}
+input:focus {border-color: #4D90FE;}
+a:hover {text-decoration: underline;}
 
-.button:hover {
-  border: 1px solid #C9C9C9;;
-  color: black;
-}
+.button:focus {border-color: #4D90FE;}
+.button:hover {border: 1px solid #C9C9C9; color: black;}
 
-.button:focus {
-  border-color: #4D90FE;
-}
-
-input:hover{
-  border-color: #A0A0A0;
-}
-
-input:focus {
-  border-color: #4D90FE;
-}
+#signin:hover {text-decoration: none;}
