@@ -5,7 +5,7 @@ body {
 
 .main{
   margin: 0 auto;
-  margin-top: 198px;
+  margin-top: 152px;
   width: 600px;
 }
 
@@ -66,25 +66,64 @@ body {
   margin-right: 28px;
 }
 
+.header {
+  text-align: right;
+}
+.header ul li a{
+  color: black;
+}
+
+.header ul li {
+  vertical-align:middle;
+  margin: auto 0 auto 11px;
+}
+.header ul {
+  margin-top: 16px;
+  margin-right: 22px;
+}
+
+.imgwrapper {
+  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  background-position: -132px -38px;
+  width:30px; height: 30px;
+}
+
+.signin {
+  width:70px; height: 30px;
+  background-color: #4386F9;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 30px;
+  color:white;
+  font-weight: bold;
+}
+
 ul {
   list-style-type: none;
   padding:0;
   margin:13px 0 0 0;
 }
+
+
+.footer ul li {
+    padding-left: 28px;
+}
 li {
   display:inline-block;
   font-size: small;
-  padding-left: 28px;
   padding-bottom: 0;
 
 }
 li a {
-  text-decoration: none;
   color:#666;
+  text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+#signin:hover {
+    text-decoration: none;
 }
 
 .button:hover {
